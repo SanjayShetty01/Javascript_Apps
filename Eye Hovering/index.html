@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Hovering</title>
+    <script defer src="app.js"></script>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        #eyes, #eyes img {
+            position: absolute;
+            height: auto;
+            width: auto;
+            max-width: 18px;
+            max-height: 50px;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <img id = "author" src="rick-and-mort.png">
+        <div id="eyes">
+            <img class="eye" src="eye.png" style="
+            top: 44px;
+            bottom: 0px;
+            left: -70px;
+            right: 10px;
+        ">
+            <img class="eye" src="eye.png" style="
+            bottom: -55px;
+            right: 9px;
+        ">
+            <img class="eye" src="eye.png" style="
+            top: -54px;
+            right: -86px;
+        ">
+            <img class="eye" src="eye.png" style="
+            bottom: 34px;
+            right: -51px;
+        ">
+        </div>
+    </main>
+    
+</body>
+</html>
